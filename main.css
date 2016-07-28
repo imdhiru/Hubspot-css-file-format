@@ -364,7 +364,7 @@ li.title {
 .body-container .widget-type-google_search .hs-form,
 .body-container .widget-type-password_prompt.custom_error_message form,
 .landing-page.one-column .body-container .hs-form,
-.body-container #email-prefs-form{
+.body-container #email-prefs-form , #comment-form form{
     
 }
 .form-title {
