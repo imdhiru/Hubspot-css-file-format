@@ -202,8 +202,12 @@ body {
   position:relative;
 }
 
-a { color: {{ linkColor }}; text-decoration: none;}
-a:hover, a:focus { color: #888; text-decoration:underline; }
+a { 
+  color: {{ linkColor }};
+  text-decoration: none;
+  }
+a:hover, a:focus { 
+ }
 
 hr {
   color: #ccc;
@@ -262,11 +266,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {}
 
 h1 {
-  font-size: 25px;
-  color: #000;
-  font-weight: 500;
-  font-family:'Open Sans', sans-serif;
-        
 }
 h2 {
   font-size:18px;
@@ -278,12 +277,14 @@ h3 {
 h4 {
 font-size:15px;
 }
-h5 {}
-h6 {}
+h5 {
+  
+}
+h6 {
+  
+}
+
 .hs-form label {
-        color: #000;
-        font-weight: bold;
-        font-size: 12px;
 }
 /* Lists */
 ul, ol {}
@@ -303,9 +304,6 @@ blockquote small {}
 blockquote small:before {}
 
 q:before, q:after, blockquote:before, blockquote:after {}
-li.title {
-        margin-bottom: 5px;
-}
 
 
 
@@ -379,7 +377,6 @@ li.title {
     
 }
 .form-title {
-   
 }
 
 /* Unique Pages
@@ -1499,11 +1496,11 @@ body input[type="color"],
 body input[type="file"],
 body textarea,
 body select {
-    max-width:100%;
+  max-width:100%;
 }
 
 .blog .blog-sidebar {
-        padding-top: 15px;
+  padding-top: 15px;
 }
 }
 /* Landscape phones and smaller devices
