@@ -932,7 +932,10 @@ body.hs-blog-listing {}
 
 /* Blog Columns Wrapper */
 .blog .content-wrapper {}
-
+#comment-form .primary{
+  margin-top:15px;
+  display:block;
+}
 
 /* Blog Content Column
    ========================================================================== */
