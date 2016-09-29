@@ -933,7 +933,10 @@ body.hs-blog-listing {}
   margin-top:15px;
   display:block;
 }
-
+.hs-author-avatar {
+    max-width: 80px;
+    margin: 10px 0 10px 0;
+}
 /* Blog Content Column
    ========================================================================== */
 .blog-listing-wrapper .post-listing .post-item {
